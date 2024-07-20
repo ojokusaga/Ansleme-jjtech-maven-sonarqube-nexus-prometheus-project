@@ -54,11 +54,11 @@
 	<distributionManagement>
     <snapshotRepository>
       <id>nexusdeploymentrepo</id>
-      <url>http://54.88.173.148:8081/repository/prestigious-snapshot/</url> <!-- Update the IP/Address to Your Nexus VM IP -->
+      <url>http://3.91.205.184:8081/repository/test-snapshot/</url> <!-- Update the IP/Address to Your Nexus VM IP -->
     </snapshotRepository>											  <!-- Mmake sure to create the "maven-snapshots" repo in Nexus -->
 	<repository>
 	  <id>nexusdeploymentrepo</id>
-      <url>http://54.88.173.148:8081/repository/prestigious-releases/</url> <!-- Update the IP/Address to Your Nexus VM IP -->
+      <url>http://3.91.205.184:8081/repository/test-release/</url> <!-- Update the IP/Address to Your Nexus VM IP -->
     </repository>													 <!-- Also make sure you have the above two or one repositories created -->
   
   </distributionManagement>
